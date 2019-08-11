@@ -1,0 +1,68 @@
+/**/
+h1{
+  font-size: 37px;
+  color:rgb(78, 110, 253);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+  text-align: center;
+  margin-top: 70px;
+}
+button[type = "button"]{
+  font-family: myFirstFont;
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-aling: center;
+  border: 2px solid #3498db;
+  padding: 10px 30px;
+  outline: none;
+  color: rgb(255, 255, 255);
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.row button[type ="button"]:focus{
+  border-color: #2ecc71;
+}
+
+.row button[type = "button"]:hover{
+background: #3498db;
+}
+
+.row input[type ="text"]{
+  font-family: myFirstFont;
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.row input[type ="text"]:focus{
+  width: 220px;
+  border-color: #2ecc71;
+}
+
+body{
+  background-color: #191919;
+  background-image: url("../fonts/wp2730412.png");
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label{
+  color: white;
+  margin-left: 42px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("../fonts/RazerBlackwidow-Regular.ttf");
+}
