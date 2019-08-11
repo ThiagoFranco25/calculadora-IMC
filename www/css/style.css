@@ -1,6 +1,7 @@
 /**/
 h1{
   font-size: 37px;
+  font-family: fantasy;
   color:rgb(78, 110, 253);
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fff;
@@ -30,6 +31,7 @@ button[type = "button"]{
 background: #3498db;
 }
 
+
 .row input[type ="text"]{
   font-family: myFirstFont;
   border:0;
@@ -57,12 +59,8 @@ body{
   background-size: cover;
 }
 
-label{
+.label{
   color: white;
   margin-left: 42px;
-}
-
-@font-face {
-  font-family: myFirstFont;
-  src: url("../fonts/RazerBlackwidow-Regular.ttf");
+  font-family: fantasy;
 }
